@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.account-container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.account-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.account-section {
+    background: #f9f9f9;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.account-section h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.account-section p {
+    margin-bottom: 15px;
+}
+
+.account-section input[type="text"],
+.account-section input[type="email"],
+.account-section input[type="number"] {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.btns {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.btns:hover {
+    background-color: #333;
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 600px) { 
+    .account-section input[type="text"],
+    .account-section input[type="email"],
+    .account-section input[type="number"] {
+    width: 100%;
+    }
+}
