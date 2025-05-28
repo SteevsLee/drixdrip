@@ -15,6 +15,15 @@ header a{
   display: inline-block;
 }
 
+/* Form and icon spacing adjustments */
+.search-form {
+  margin-right: 1rem;
+}
+
+.icon-group {
+  display: flex;
+  align-items: center;
+}
 .sale-text {
   color: #e53935; /* soft red */
   font-weight: 600;
