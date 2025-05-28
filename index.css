@@ -169,6 +169,9 @@
   padding: 0 30px;
 }
 
+.carousel-container a{
+  text-decoration: none;
+}
 .carousel-collection {
   display: flex;
   overflow-x: auto;
