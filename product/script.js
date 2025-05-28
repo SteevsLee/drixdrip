@@ -292,7 +292,7 @@ const products = {
         category: "DRESSES",
         reviews: 94,
         rating: 4.9,
-        price: "₱1,039.60", // discounted price
+        price: "₱1,559.40", // discounted price
         originalPrice: "₱2,599",
         discount: 40,
         sizes: ["S", "M", "L"],
