@@ -388,19 +388,6 @@ footer {
 
 /* Mobile menu adjustments */
 @media (max-width: 992px) {
-  .navbar-collapse {
-    padding-top: 1rem;
-  }
-  
-  .navbar-nav {
-    margin-bottom: 1rem;
-  }
-  
-  .navbar-utils {
-    margin-left: 0;
-    width: 100%;
-    justify-content: space-between;
-  }
   
   .icon-group {
     margin-left: auto;
@@ -410,15 +397,7 @@ footer {
     justify-content: center;
     padding-right: 0;
   }
-  
-  .navbar-brand {
-    font-size: 1.3rem;
-  }
-  
-  .navbar-brand img {
-    width: 70px;
-    height: 70px;
-  }
+   
   
   .collection-item {
     min-width: 240px;
@@ -458,16 +437,7 @@ footer {
     flex-direction: column;
     gap: 5px;
     align-items: flex-end;
-  }
-  
-  .navbar-brand {
-    font-size: 1.1rem;
-  }
-  
-  .navbar-brand img {
-    width: 60px;
-    height: 60px;
-  }
+  } 
   
   .collection-item {
     min-width: 200px;
