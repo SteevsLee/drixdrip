@@ -232,7 +232,7 @@ const products = {
         category: "TOPS",
         reviews: 56,
         rating: 4.7,
-        price: "₱749", // discounted price
+        price: "₱749.50", // discounted price
         originalPrice: "₱1,499",
         discount: 50,
         sizes: ["XS", "S", "M", "L"],
@@ -294,7 +294,7 @@ const products = {
         rating: 4.9,
         price: "₱2,079", // discounted price
         originalPrice: "₱2,599",
-        discount: 20,
+        discount: 40,
         sizes: ["S", "M", "L"],
         colors: ["Yellow", "Floral", "Mint"],
         material: "Cotton Blend",

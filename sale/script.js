@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
     id: "mini-sundress",
     title: "Mini Sundress",
     price: 2599,
-    discount: 20,
+    discount: 40,
     category: "Dresses",
     material: "Cotton Blend",
     colors: ["Yellow", "Floral", "Mint"],
