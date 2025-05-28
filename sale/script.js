@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
     id: "cropped-cotton-tee",
     title: "Cropped Cotton Tee",
     price: 1499,
-    discount: 20,
+    discount: 50,
     category: "Tops",
     material: "Cotton",
     colors: ["Pink", "Sky Blue", "White"],
