@@ -150,7 +150,9 @@
   gap: 1rem;
   padding-bottom: 1rem;
 }
-
+.carousel-collection a{
+  text-decoration: none;
+}
 .collection-item {
   flex: 0 0 80vw; /* Show one item at a time on mobile */
   max-width: 350px;
