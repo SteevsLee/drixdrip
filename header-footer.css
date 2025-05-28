@@ -3,7 +3,12 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
-
+footer a{
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
+}
 .navbar-brand {
   margin-right: 2rem;
   padding-left: 0;
