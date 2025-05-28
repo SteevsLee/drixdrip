@@ -9,6 +9,29 @@ footer a{
 header a{
     text-decoration: none;
 } 
+
+.sale-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.sale-text {
+  color: #e53935; /* soft red */
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+.sale-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 0.55em;
+  transform: translate(40%, -5%);
+  pointer-events: none;
+}
 .navbar-brand {
   margin-right: 2rem;
   padding-left: 0;
