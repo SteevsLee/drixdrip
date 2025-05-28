@@ -15,22 +15,33 @@
 <body>
   <!-- Header -->
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 flex-column fixed-top">
-      <!-- Top Bar (Right Aligned) -->
+    
+     <nav class="navbar navbar-expand-lg navbar-light bg-light  p-0 flex-column fixed-top">
+    
+    <!-- Top Bar (Right Aligned) -->
       <div class="w-100 bg-light py-1 border-bottom">
         <div class="container d-flex justify-content-end align-items-center gap-3 small text-secondary">
           <span><i class="bi bi-globe2 me-1"></i> PH | English</span>
           <span><i class="bi bi-geo-alt me-1"></i> Find A Store</span>
         </div>
       </div>
-
+ 
       <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="drix icon.png" alt="Logo" />
+        <a class="navbar-brand" href=index.html">
+          <img src="../drix icon.png" alt="Logo" />
           Drix Drip Store
         </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+         
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -38,7 +49,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html" >HOME</a>
+              <a class="nav-link" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="men/men.html">MEN</a>
@@ -52,18 +63,14 @@
             <li class="nav-item">
               <a class="nav-link" href="sale/sale.html">SALE</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about/index.html">ABOUT</a>
-            </li>
           </ul>
 
-          <div class="navbar-utils">
-            <form class="d-flex search-form" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-              <button class="btn btn-outline-dark" type="submit">Search</button>
-            </form>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
 
-            <div class="icon-group" style="margin-left: 5rem;">
+          <div class="icon-group">
               <a href="account/Account.html">
               <i class="bi bi-person fs-5 me-3"></i></a>
               <a href="wishlist/wishlist.html">
@@ -71,7 +78,6 @@
               <a href="cart/cart.html">
               <i class="bi bi-cart fs-5"></i></a>
             </div>
-          </div>
         </div>
       </div>
     </nav>
