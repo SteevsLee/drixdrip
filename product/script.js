@@ -232,9 +232,9 @@ const products = {
         category: "TOPS",
         reviews: 56,
         rating: 4.7,
-        price: "₱1,199", // discounted price
+        price: "₱749", // discounted price
         originalPrice: "₱1,499",
-        discount: 20,
+        discount: 50,
         sizes: ["XS", "S", "M", "L"],
         colors: ["Pink", "Sky Blue", "White"],
         material: "Cotton",
